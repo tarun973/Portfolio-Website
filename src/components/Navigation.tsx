@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "About", href: "#about" },
+  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
@@ -30,7 +31,7 @@ const Navigation = () => {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="font-display text-2xl font-medium text-gradient">
-          AC
+          TA
         </a>
 
         {/* Desktop Navigation */}
@@ -48,7 +49,7 @@ const Navigation = () => {
             href="#contact"
             className="px-5 py-2 bg-primary text-primary-foreground font-body text-sm font-medium rounded-full hover:opacity-90 transition-opacity"
           >
-            Hire Me
+            Contact Me
           </a>
         </div>
 
@@ -80,7 +81,7 @@ const Navigation = () => {
               className="px-5 py-3 bg-primary text-primary-foreground font-body font-medium rounded-full text-center hover:opacity-90 transition-opacity"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Hire Me
+              Contact Me
             </a>
           </div>
         </div>
