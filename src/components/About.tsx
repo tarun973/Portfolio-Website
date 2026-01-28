@@ -8,34 +8,35 @@ const About = () => {
               About Me
             </p>
             <h2 className="font-display text-4xl md:text-5xl font-medium mb-8">
-              Passionate about creating impactful digital solutions
+              Building intelligent solutions through code and data
             </h2>
           </div>
           
           <div className="space-y-6">
             <p className="font-body text-muted-foreground text-lg leading-relaxed">
-              With over 5 years of experience in web development and design, I've had 
-              the privilege of working with startups and established companies alike, 
-              helping them bring their visions to life.
+              I'm currently pursuing my Master of Engineering in Computer Science at 
+              Virginia Tech, building on my foundation from NMIMS where I studied 
+              Computer Science and Business Systems.
             </p>
             <p className="font-body text-muted-foreground text-lg leading-relaxed">
-              I believe in the power of simplicity. My approach combines minimalist 
-              aesthetics with robust functionality, creating experiences that are 
-              both beautiful and performant.
+              My experience spans UI/UX design, data science, and full-stack development. 
+              I've worked on everything from building machine learning models for business 
+              forecasting to designing intuitive mobile applications.
             </p>
             <p className="font-body text-muted-foreground text-lg leading-relaxed">
-              When I'm not coding, you'll find me exploring photography, hiking 
-              trails, or experimenting with new design tools.
+              I'm passionate about leveraging AI and data analytics to solve real-world 
+              problems—from food safety platforms to healthcare dashboards that drive 
+              better decision-making.
             </p>
           </div>
         </div>
         
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: "50+", label: "Projects Completed" },
-            { number: "5+", label: "Years Experience" },
-            { number: "30+", label: "Happy Clients" },
-            { number: "10+", label: "Awards Won" },
+            { number: "3.90", label: "GPA at Virginia Tech" },
+            { number: "2+", label: "Years Experience" },
+            { number: "5+", label: "Projects Completed" },
+            { number: "20+", label: "Technologies" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <p className="font-display text-4xl md:text-5xl text-gradient font-medium mb-2">

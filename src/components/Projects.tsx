@@ -2,28 +2,28 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Minimal E-Commerce",
-    description: "A sleek online store with seamless checkout experience and modern design language.",
-    tags: ["React", "TypeScript", "Stripe"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+    title: "FoodieSafety",
+    description: "AI-powered food recall & safety platform delivering real-time alerts for U.S. grocery shoppers. Built with FastAPI, AWS Lambda, and LLM-based recipe recommendations.",
+    tags: ["FastAPI", "AWS", "DynamoDB", "Docker", "LLM"],
+    image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&h=600&fit=crop",
   },
   {
-    title: "Finance Dashboard",
-    description: "Real-time analytics platform with intuitive data visualization and dark mode.",
-    tags: ["Next.js", "D3.js", "PostgreSQL"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    title: "Healthcare Analytics Dashboard",
+    description: "Real-time healthcare analytics platform for stakeholders with role-based access, LLM-powered insights, and interactive visualizations for 500+ patient records.",
+    tags: ["PostgreSQL", "Streamlit", "Python", "LLM"],
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
   },
   {
-    title: "Travel Journal",
-    description: "A personal travel diary app with location-based stories and photo galleries.",
-    tags: ["React Native", "Firebase", "Maps API"],
-    image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop",
+    title: "Smart Mirror with AI",
+    description: "AI-powered smart mirror built on Raspberry Pi with face detection, voice control via Google Assistant, and integrated modules for weather, calendar, and news.",
+    tags: ["Raspberry Pi", "OpenCV", "Google Assistant", "Python"],
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
   },
   {
-    title: "AI Writing Assistant",
-    description: "Smart content generation tool powered by machine learning algorithms.",
-    tags: ["Python", "OpenAI", "FastAPI"],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
+    title: "Service Box Mobile App",
+    description: "Designed UI/UX for a cross-platform mobile app, improving user engagement by 30% through intuitive design and smooth animations.",
+    tags: ["Figma", "UI/UX", "Android", "iOS"],
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop",
   },
 ];
 
@@ -33,7 +33,7 @@ const Projects = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4">
-            Selected Work
+            Portfolio
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-medium">
             Featured Projects

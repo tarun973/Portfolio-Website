@@ -1,35 +1,35 @@
-import { Code2, Palette, Smartphone, Database, Zap, Users } from "lucide-react";
+import { Code, Database, Layout, Brain, Cloud, Wrench } from "lucide-react";
 
-const skills = [
+const skillCategories = [
   {
-    icon: Code2,
-    title: "Frontend Development",
-    description: "React, TypeScript, Next.js, and modern CSS frameworks for responsive web applications.",
+    icon: Code,
+    title: "Languages",
+    skills: ["Python", "C/C++", "JavaScript", "SQL", "R", "HTML"],
   },
   {
-    icon: Palette,
-    title: "UI/UX Design",
-    description: "Figma, design systems, and user-centered approaches for intuitive interfaces.",
-  },
-  {
-    icon: Smartphone,
-    title: "Mobile Development",
-    description: "React Native and Flutter for cross-platform mobile experiences.",
+    icon: Brain,
+    title: "AI/ML & Data",
+    skills: ["TensorFlow", "PyTorch", "scikit-learn", "Pandas", "NumPy", "OpenCV"],
   },
   {
     icon: Database,
-    title: "Backend & APIs",
-    description: "Node.js, PostgreSQL, and RESTful/GraphQL API design and implementation.",
+    title: "Databases",
+    skills: ["PostgreSQL", "MySQL", "Oracle", "DynamoDB"],
   },
   {
-    icon: Zap,
-    title: "Performance",
-    description: "Optimization techniques for fast load times and smooth user experiences.",
+    icon: Cloud,
+    title: "Cloud & DevOps",
+    skills: ["AWS", "Azure", "Docker", "GitHub", "Railway"],
   },
   {
-    icon: Users,
-    title: "Collaboration",
-    description: "Agile methodologies and clear communication for effective teamwork.",
+    icon: Layout,
+    title: "Design & Frontend",
+    skills: ["Figma", "Streamlit", "React", "Tableau", "Canva"],
+  },
+  {
+    icon: Wrench,
+    title: "Tools & IDEs",
+    skills: ["VS Code", "PyCharm", "IntelliJ", "Jupyter", "MATLAB"],
   },
 ];
 
@@ -42,26 +42,34 @@ const Skills = () => {
             Expertise
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-medium">
-            Skills & Services
+            Skills & Technologies
           </h2>
         </div>
         
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {skills.map((skill, index) => (
+          {skillCategories.map((category, index) => (
             <div
               key={index}
               className="group p-8 rounded-2xl bg-card-gradient border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-glow"
             >
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                <skill.icon className="text-primary" size={28} />
+                <category.icon className="text-primary" size={28} />
               </div>
               
-              <h3 className="font-display text-xl font-medium mb-3">
-                {skill.title}
+              <h3 className="font-display text-xl font-medium mb-4">
+                {category.title}
               </h3>
-              <p className="font-body text-muted-foreground leading-relaxed">
-                {skill.description}
-              </p>
+              
+              <div className="flex flex-wrap gap-2">
+                {category.skills.map((skill, skillIndex) => (
+                  <span
+                    key={skillIndex}
+                    className="px-3 py-1 bg-secondary text-muted-foreground text-sm font-body rounded-full"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
           ))}
         </div>
