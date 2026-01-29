@@ -6,14 +6,14 @@ const experiences = [
     title: "UI/UX Intern",
     company: "Techmihirnaik Group",
     period: "May 2023 – Jul 2023",
-    description: "Designed and developed UI/animations for 'Service Box' app. Improved user engagement by 30% through intuitive design using Figma.",
+    description: "Designed and developed the user interface and animations for the 'Service Box' application, optimized for both Android and iOS platforms. Created and refined user screens and interactive elements using Figma, enhancing the overall user experience and visual appeal. Improved user engagement by 30% through intuitive design and enhanced visual appeal.",
   },
   {
     type: "work",
     title: "Data Science Intern",
     company: "Solar Secure Solutions",
     period: "Dec 2022 – Feb 2023",
-    description: "Built ML models for business forecasting, improving decision accuracy by 25%. Created 20+ visualizations and predictive analytics pipelines.",
+    description: "Built and evaluated machine learning models to solve business forecasting problems, improving decision accuracy by 25%. Performed exploratory data analysis and statistical modeling on structured datasets; created 20+ visualizations for stakeholder insights. Developed end-to-end predictive analytics pipelines using Python, leveraging scikit-learn, numpy, and pandas for data-driven decision-making.",
   },
 ];
 
