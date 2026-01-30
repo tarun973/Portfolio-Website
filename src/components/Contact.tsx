@@ -1,4 +1,4 @@
-import { Mail, Phone, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, Github, Linkedin, Download } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -33,22 +33,33 @@ const Contact = () => {
           </a>
         </div>
         
-        <div className="flex justify-center gap-6">
-          {[
-            { icon: Github, label: "GitHub", href: "https://github.com" },
-            { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-          ].map((social, index) => (
-            <a
-              key={index}
-              href={social.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={social.label}
-              className="w-12 h-12 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
-            >
-              <social.icon size={20} />
-            </a>
-          ))}
+        <div className="flex flex-col items-center gap-8">
+          <a
+            href="/Tarun_Resume.pdf"
+            download="Tarun_Ajitkumar_Resume.pdf"
+            className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground font-body font-medium rounded-full hover:opacity-90 transition-opacity"
+          >
+            <Download size={20} />
+            Download Resume
+          </a>
+          
+          <div className="flex justify-center gap-6">
+            {[
+              { icon: Github, label: "GitHub", href: "https://github.com/tarun973" },
+              { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/tarun-ajitkumar/" },
+            ].map((social, index) => (
+              <a
+                key={index}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={social.label}
+                className="w-12 h-12 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
+              >
+                <social.icon size={20} />
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </section>
