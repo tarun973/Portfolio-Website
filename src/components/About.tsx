@@ -33,8 +33,8 @@ const About = () => {
         
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: "3.90", label: "GPA at Virginia Tech" },
-            { number: "2+", label: "Years Experience" },
+          { number: "3.90", label: "GPA at Virginia Tech" },
+            { number: "2+", label: "Years in ML & AI" },
             { number: "5+", label: "Projects Completed" },
             { number: "20+", label: "Technologies" },
           ].map((stat, index) => (
