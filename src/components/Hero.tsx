@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center relative px-6 bg-hero-gradient">
       <div className="max-w-4xl mx-auto text-center">
-        <p className="text-muted-foreground font-body text-sm tracking-[0.3em] uppercase mb-6 opacity-0 animate-fade-up">
-          Computer Science Graduate Student
+        <p className="text-muted-foreground font-body text-sm tracking-[0.2em] uppercase mb-6 opacity-0 animate-fade-up">
+          CS Grad • Software Engineer • ML Enthusiast
         </p>
         
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium leading-tight mb-8 opacity-0 animate-fade-up animation-delay-200">
