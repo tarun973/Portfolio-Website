@@ -22,7 +22,8 @@ const projects = [
     description: "AI-powered smart mirror built on Raspberry Pi with face detection, voice control via Google Assistant, and integrated modules for weather, calendar, and news.",
     tags: ["Raspberry Pi", "OpenCV", "Google Assistant", "Python"],
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
-    showLinks: false,
+    github: "https://github.com/tarun973/MagicMirror",
+    showLinks: true,
   },
   {
     title: "Service Box Mobile App",
