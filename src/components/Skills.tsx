@@ -4,12 +4,22 @@ const skillCategories = [
   {
     icon: Code,
     title: "Languages",
-    skills: ["Python", "C/C++", "JavaScript", "SQL", "R", "HTML"],
+    skills: ["Python", "SQL", "C++", "JavaScript", "R"],
   },
   {
     icon: Brain,
-    title: "AI/ML & Data",
-    skills: ["TensorFlow", "PyTorch", "scikit-learn", "Pandas", "NumPy", "OpenCV"],
+    title: "ML/AI",
+    skills: ["scikit-learn", "PyTorch", "TensorFlow", "Keras", "XGBoost", "Transformers", "OpenCV", "Feature Engineering", "Ensemble Learning", "LLM Integration", "Prompt Engineering", "LangChain", "LangGraph", "RAG", "MCP"],
+  },
+  {
+    icon: Layout,
+    title: "Data & Analytics",
+    skills: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Tableau", "Power BI", "Streamlit", "EDA", "ETL"],
+  },
+  {
+    icon: Cloud,
+    title: "Backend & Cloud",
+    skills: ["FastAPI", "REST APIs", "JWT Auth", "Docker", "AWS (EC2, Lambda)", "Azure", "Kubernetes"],
   },
   {
     icon: Database,
@@ -17,19 +27,9 @@ const skillCategories = [
     skills: ["PostgreSQL", "MySQL", "Oracle", "DynamoDB"],
   },
   {
-    icon: Cloud,
-    title: "Cloud & DevOps",
-    skills: ["AWS", "Azure", "Docker", "GitHub", "Railway"],
-  },
-  {
-    icon: Layout,
-    title: "Design & Frontend",
-    skills: ["Figma", "Streamlit", "React", "Tableau", "Canva"],
-  },
-  {
     icon: Wrench,
-    title: "Tools & IDEs",
-    skills: ["VS Code", "PyCharm", "IntelliJ", "Jupyter", "MATLAB"],
+    title: "Tools",
+    skills: ["MS Office", "Git", "GitHub", "Jupyter", "VS Code", "PyCharm", "MATLAB", "R Studio"],
   },
 ];
 
