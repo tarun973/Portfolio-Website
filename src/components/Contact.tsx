@@ -35,7 +35,7 @@ const Contact = () => {
         
         <div className="flex flex-col items-center gap-8">
           <a
-            href="/Tarun_Resume.pdf"
+            href="/Tarun_Resume_DS.pdf"
             download="Tarun_Ajitkumar_Resume.pdf"
             className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground font-body font-medium rounded-full hover:opacity-90 transition-opacity"
           >
