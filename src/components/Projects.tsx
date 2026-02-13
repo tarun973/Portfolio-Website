@@ -3,7 +3,7 @@ import { Github } from "lucide-react";
 const projects = [
   {
     title: "Human v/s AI Content Classification",
-    description: "Distinguished human-written text from AI-generated content by developing a multi-architecture classification framework trained on a balanced dataset of 80,000 samples. Engineered and benchmarked a diverse model suite including Statistical baselines (TF-IDF + MLP), Transformer models (DistilBERT, RoBERTa), and deep sequential architectures (GRU, TCN). Designed a robust hybrid ensemble by stacking XGBoost over GRU and TCN architectures to enhance model generalizability against paraphrased and adversarial content.",
+    description: "Multi-architecture classification framework to distinguish human-written text from AI-generated content, trained on 80,000 samples. Benchmarked TF-IDF + MLP, DistilBERT, RoBERTa, GRU, and TCN models with a hybrid XGBoost ensemble for robust detection.",
     tags: ["NLP", "DistilBERT", "RoBERTa", "XGBoost", "GRU", "TCN"],
     image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=600&fit=crop",
     github: "https://github.com/tarun973/Human-vs-AI-Content-Classification",
