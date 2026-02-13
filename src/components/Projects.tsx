@@ -34,6 +34,14 @@ const projects = [
     showLinks: true,
   },
   {
+    title: "AI Food Carbon Footprint Analyzer",
+    description: "Streamlit app that uses OCR to extract food items from bill images, retrieves carbon footprint data from Firebase Firestore, and suggests eco-friendly alternatives via the Perplexity API.",
+    tags: ["Streamlit", "OCR", "Firebase", "Perplexity API", "Python"],
+    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&h=600&fit=crop",
+    github: "https://github.com/tarun973/AI-Food-Carbon-Footprint-Analyzer",
+    showLinks: true,
+  },
+  {
     title: "Service Box Mobile App",
     description: "Designed UI/UX for a cross-platform mobile app, improving user engagement by 30% through intuitive design and smooth animations.",
     tags: ["Figma", "UI/UX", "Android", "iOS"],
