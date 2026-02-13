@@ -2,6 +2,14 @@ import { Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Human v/s AI Content Classification",
+    description: "Distinguished human-written text from AI-generated content by developing a multi-architecture classification framework trained on a balanced dataset of 80,000 samples. Engineered and benchmarked a diverse model suite including Statistical baselines (TF-IDF + MLP), Transformer models (DistilBERT, RoBERTa), and deep sequential architectures (GRU, TCN). Designed a robust hybrid ensemble by stacking XGBoost over GRU and TCN architectures to enhance model generalizability against paraphrased and adversarial content.",
+    tags: ["NLP", "DistilBERT", "RoBERTa", "XGBoost", "GRU", "TCN"],
+    image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=600&fit=crop",
+    github: "https://github.com/tarun973/Human-vs-AI-Content-Classification",
+    showLinks: true,
+  },
+  {
     title: "FoodieSafety",
     description: "AI-powered food recall & safety platform delivering real-time alerts for U.S. grocery shoppers. Built with FastAPI, AWS Lambda, and LLM-based recipe recommendations.",
     tags: ["FastAPI", "AWS", "DynamoDB", "Docker", "LLM"],
