@@ -3,6 +3,13 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const experiences = [
   {
     type: "work",
+    title: "Research Assistant (NLP)",
+    company: "Virginia Tech",
+    period: "Jan 2026 – Present",
+    description: "Evaluated systematic bias and reasoning patterns in LLMs (GPT-5 mini, Mistral 3 large, Gemini 3 flash, Claude Sonnet 3.5) using a uniform framework to analyze model-based decision logic. Benchmarked model performance using Zero-shot, Few-shot, and Chain-of-Thought (CoT) prompting to determine the impact of context and reasoning steps on annotation accuracy. Quantified model-human alignment by calculating Inter-Rater Agreement (IRA) scores between model-generated explanations and human-labeled gold-standard datasets.",
+  },
+  {
+    type: "work",
     title: "UI/UX Intern",
     company: "Techmihirnaik Group",
     period: "May 2023 – Jul 2023",
